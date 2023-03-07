@@ -1113,7 +1113,7 @@ p{
     height: 300px;
     position: relative;
     z-index: 1;
-    background: url(../images/02_About_Us.jpg) left top no-repeat;
+    background: url(../images/-1585804846-1426018512460.jpg) left top no-repeat;
     background-size: cover;
 }
 #page-breadcrumb:after{ 
@@ -1399,8 +1399,9 @@ p{
     height: 300px;
     position: relative;
     z-index: 1;
-    background: url(../images/07_Contact_Us.jpg) left top no-repeat;
+    background: url(../images/-1585804846-1426018512460.jpg) left top no-repeat;
     background-size: cover;
+    background-position: center;
    
 }
 #contact-breadcrumb:after{ 
