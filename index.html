@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/fatema-logo.png">
     <title>Fatema Motors</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -43,11 +45,10 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="header-icon">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.facebook.com/fatemamotors?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                             <li><a href="#"><i class="fab fab fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,14 +62,13 @@
         <div class="container">
             <div class="logo">
                 <a class="navbar-brand fmotor" href="index.html" >
-                    <!-- <img src="images/ak-trade-logo.png" alt="" style="width: 200px;"> -->
-                    <span style="color: #ffca36;">FATEMA</span> MOTORS
+                    <img src="images/fatema-logo.png" alt="" style="width: 110px;">
                 </a>
-                <a class="navbar-brand " href="akTrade.html" style="font-size: 25px; font-weight: bold;">
-                    <img src="images/ak-trade-logo.png" alt="" style="max-width: 150px;">
+                <a class="navbar-brand " href="akTrade.html" >
+                    <img src="images/ak-trade-logo.png" alt="" style="max-width: 110px;">
                 </a>
                 <a class="navbar-brand " href="http://tradeshoregroup.com/drill-tech/" target="_blank" >
-                    <img src="images/drilltrade.png" alt="" style="max-width: 100px;">
+                    <img src="images/drilltrade.png" alt="" style="max-width: 70px;">
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
@@ -80,7 +80,7 @@
                         <a class="nav-link active" href="index.html">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Products </a>
+                        <a class="nav-link" href="#blog-part">Products </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="company.html">Company </a>
@@ -154,7 +154,7 @@
 
 
         <!--services part start-->
-        <section id="services-part">
+        <section id="services-part" class="wow bounceInUp"  >
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
@@ -217,7 +217,7 @@
         <!--services part end-->
 
         <!--about part start-->
-        <section id="about-part">
+        <section id="about-part" class="wow bounceInUp">
             <div class="row justify-content-between mx-0">
                 <div class="col-lg-5 ps-0 d-none d-lg-block">
                     <div class="about-left">
@@ -244,10 +244,6 @@
                                     type="button">Vision</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#Staff"
-                                    type="button">Our Staff</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
                                 <button class="nav-link" data-bs-toggle="tab" data-bs-target="#values"
                                     type="button">Our VALUES</button>
                             </li>
@@ -256,51 +252,54 @@
                         <div class="tab-content" id="myTabContent">
 
                             <div class="tab-pane fade show active" id="Company">
-                                <p>We are pleased to introduce our company, Fatema motors we are a trading company authorized
-                                    auto spare parts in Dhaka -Bangladesh. We are the leading supplier of all sources of auto parts for
-                                    Korean &amp; Japan’s cars.</p>
-                                <p>The supply of parts for Korean cars has been limited throughout the world. We have greater
-                                    purchasing power! We can offer best our customers with more competitive price and most efficient
-                                    and satisfactory services we have built up stable and long-term corporation with costumers all
-                                    around the Country.  And the associated management have created a highly experienced sales
-                                    team that expand of auto part products countrywide.</p>
+
+                                <li style="list-style: none;">
+                                    We are pleased to introduce our company, Fatema motors we are a trading company authorized
+                                        auto spare parts in Dhaka -Bangladesh. We are the leading supplier of all sources of auto parts for
+                                        Korean &amp; Japan’s cars. <br> <br>
+                                    The supply of parts for Korean cars has been limited throughout the world. We have greater
+                                        purchasing power! We can offer best our customers with more competitive price and most efficient
+                                        and satisfactory services we have built up stable and long-term corporation with costumers all
+                                        around the Country.  And the associated management have created a highly experienced sales
+                                        team that expand of auto part products countrywide.
+                                </li>
                                 
                                 <div class="about-btn">
-                                    <a href="">read more</a>
+                                    <a href="company.html">read more</a>
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="Mission">
-                                <li>Establishing an innovative, dynamic, flexible and participative network for
-                                    automotive parts and services.</li>
-                                <li>Ensuring on-time delivery of the guaranteed and high quality parts and services
-                                    to car owners.</li>
-                                <li>Expanding local markets of automotive parts and services.</li>
-                                <li>Developing the imported car market.</li>
-                                <li>Developing and expanding parts and accessories.</li>
+                                <ul class="nav-bar nav" style="list-style:circle;">
+                                    <li>Establishing an innovative, dynamic, flexible and participative network  for
+                                        automotive parts and services.</li>
+                                    <li>Ensuring on-time delivery of the guaranteed and high quality parts and services
+                                        to car owners.</li>
+                                    <li>Expanding local markets of automotive parts and services.</li>
+                                    <li>Developing the imported car market.</li>
+                                    <li>Developing and expanding parts and accessories.</li>
+                                </ul>
                             </div>
                             <div class="tab-pane fade" id="Vision">
-                                <li>To become a domestic market leader in automotive parts, spare-parts and
-                                    accessories supply and distribution network for all brands.</li>
-                                <li>After-sale services as a paramount and unique quality for Japans and Korean car.</li>
-                                <li>To use the best business practices in a professional manner</li>
-                                <li>To achieve the world-class competitive potentials</li>
-                                <li>To expand and develop business market.</li>
-                                <li>To deliver on time as described with 100% satisfaction</li>
-                            </div>
-                            <div class="tab-pane fade" id="Staff">
-                                Our Staff are our greatest asset. Through our friendly, well-trained staff, Fatema
-                                Motors is able to offer quality products and services and continue growing.
-                                Fatema Motors ensures that all staff are well trained for their job description and
-                                are committed.
+                                <ul class="nav-bar nav" style="list-style:decimal;">
+                                    <li>To become a domestic market leader in automotive parts, spare-parts and
+                                        accessories supply and distribution network for all brands.</li>
+                                    <li>After-sale services as a paramount and unique quality for Japans and Korean car.</li>
+                                    <li>To use the best business practices in a professional manner</li>
+                                    <li>To achieve the world-class competitive potentials</li>
+                                    <li>To expand and develop business market.</li>
+                                    <li>To deliver on time as described with 100% satisfaction</li>
+                                </ul>
                             </div>
                             <div class="tab-pane fade" id="values">
-                                1. Social Responsibility- Contribute to the development of the Country <br>
-                                2. Excellent Customer Service- We believe the customer is the King and they 
-                                    &nbsp; satisfaction is important to us. <br>
-                                3. Integrity- Team spirit, fairness, honesty and professionalism <br>
-                                4. Competence- Apply integrated knowledge in practice <br>
-                                5. Timeliness - Time is of essence in everything 
+                                <ul class="nav-bar nav" style="list-style:disc;">
+                                    <li>Social Responsibility- Contribute to the development of the Country.</li>
+                                    <li>Excellent Customer Service- We believe the customer is the King and they 
+                                        satisfaction is important to us..</li>
+                                    <li>Integrity- Team spirit, fairness, honesty and professionalism </li>
+                                    <li>Competence- Apply integrated knowledge in practice</li>
+                                    <li>Timeliness - Time is of essence in everything</li>
+                                </ul> 
                             </div>
                         </div>
                     </div>
@@ -310,8 +309,8 @@
         <!-- About part end  -->
 
 
-        <!--blog-part start-->
-        <section id="blog-part">
+        <!--product-part start-->
+        <section id="blog-part" >
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
@@ -322,120 +321,140 @@
                         </div>
                     </div>
                 </div>
-                <div class="row blog-slider">
-                    <div class="col-lg-3 col-md-6 col-6 text-center">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="images/brack-oil.png" alt="">
-                                <div class="img-overlay">
-                                    <i class="fa-solid fa-link"></i>
-                                </div>
-                            </div>
-                            <div class="blog-content">
-                                <h4>Brake Fluid</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-user"></i> <span>By: Admin</span></a></li>
-                                    <li><a href="#"><i class="fas fa-thumbs-up"></i> <span>2.5k likes</span></a></li>
-                                    <li><a href="#"><i class="fas fa-comment"></i> <span>1.5k comments</span></a></li>
-                                </ul>
-                                <p>High performance brake fluid is essential in keeping braking systems in top working condition. Brake fluid is
-                                    a type of hydraulic fluid that allows for the transfer of force into pressure. Because brake fluid is subject to
-                                    high temperatures, it requires a high &quot;boiling point&quot; to avoid vaporizing.</p>
-                                <div class="blog-btn">
-                                    <a href="#"><span>Read More</span></a>
-                                </div>
-                            </div>
+                <div class="row ">
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInLeft">
+                            <img src="images/5_image1.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-6 text-center">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="images/Car Coolant.png" alt="">
-                                <div class="img-overlay">
-                                    <i class="fa-solid fa-link"></i>
-                                </div>
-                            </div>
-                            <div class="blog-content">
-                                <h4>Car Coolant</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-user"></i> <span>By: Admin</span></a></li>
-                                    <li><a href="#"><i class="fas fa-thumbs-up"></i> <span>2.5k likes</span></a></li>
-                                    <li><a href="#"><i class="fas fa-comment"></i> <span>1.5k comments</span></a></li>
-                                </ul>
-                                <p>Your car coolant is crucial to your car&#39;s cooling system. The coolant contains glycol and water and is what
-                                    prevents the engine from overheating. </p>
-                                <p>For optimum performance and cooling efficiency, have the car coolant replaced at intervals in accordance
-                                    with your Service &amp; Warranty logbook or every 80,000kms.</p>
-                                <div class="blog-btn">
-                                    <a href="#"><span>Read More</span></a>
-                                </div>
-                            </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInRight">
+                            <img src="images/51RpNh8ujHL._AC_UL320_SR314,320_.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-6 text-center">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="images/blog4.jpg" alt="">
-                                <div class="img-overlay">
-                                    <i class="fa-solid fa-link"></i>
-                                </div>
-                            </div>
-                            <div class="blog-content">
-                                <h4>Best Contructory Production Industry</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-user"></i> <span>By: Admin</span></a></li>
-                                    <li><a href="#"><i class="fas fa-thumbs-up"></i> <span>2.5k likes</span></a></li>
-                                    <li><a href="#"><i class="fas fa-comment"></i> <span>1.5k comments</span></a></li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid laudantium numquam
-                                    porro nobis possimus corrupti corporis, earum iste ipsum, tenetur quos quidem
-                                    excepturi
-                                    autem sint ducimus distinctio maiores nesciunt perferendis.</p>
-                                <div class="blog-btn">
-                                    <a href="#"><span>Read More</span></a>
-                                </div>
-                            </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInDown">
+                            <img src="images/670px-Change-Spark-Plugs-in-a-Car-Step-8-Version-2 (1).jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-6  text-center">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="images/blog5.jpg" alt="">
-                                <div class="img-overlay">
-                                    <i class="fa-solid fa-link"></i>
-                                </div>
-                            </div>
-                            <div class="blog-content">
-                                <h4>Best Contructory Production Industry</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-user"></i> <span>By: Admin</span></a></li>
-                                    <li><a href="#"><i class="fas fa-thumbs-up"></i> <span>2.5k likes</span></a></li>
-                                    <li><a href="#"><i class="fas fa-comment"></i> <span>1.5k comments</span></a></li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid laudantium numquam
-                                    porro nobis possimus corrupti corporis, earum iste ipsum, tenetur quos quidem
-                                    excepturi
-                                    autem sint ducimus distinctio maiores nesciunt perferendis.</p>
-                                <div class="blog-btn">
-                                    <a href="#"><span>Read More</span></a>
-                                </div>
-                            </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInUp">
+                            <img src="images/2013_China_Medical_Disposable_Urine_Bag.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow fadeInTopLeft">
+                            <img src="images/126246.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow fadeInTopRight">
+                            <img src="images/3712926_orig.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow fadeInBottomLeft">
+                            <img src="images/395105983_045.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow fadeInBottomRight">
+                            <img src="images/467506323_660.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInDown">
+                            <img src="images/air-conditioning-repair-St-Louis-Mo-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInLeft">
+                            <img src="images/Continuous-blood-glucose-monitor.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInRight">
+                            <img src="images/cxknham6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInUp">
+                            <img src="images/Disposable-Medical-Dental-Needle-Surgical-Needle-Needles.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow fadeInTopLeft">
+                            <img src="images/Disposable-Quadruple-Cpd-Sagm-Blood-Bag-with-Platelet-Storage-Bag.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow fadeInTopRight">
+                            <img src="images/Disposable-Syringe-ensyringe-web.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow fadeInBottomLeft">
+                            <img src="images/Disposable_Umbilical_Cord_Clamp_634565412504105503_3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow fadeInBottomRight">
+                            <img src="images/FF7BE122629373FE4885C77BD3E8E82D.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInRight">
+                            <img src="images/FH11MAR_BRAJOB_01.JPG" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInDown" >
+                            <img src="images/GM-oil-change-indicator-623x389.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInRight">
+                            <img src="images/harvey-original.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInUp">
+                            <img src="images/how-the-starting-system-works-9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInRight">
+                            <img src="images/HSP762-1_m.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInDown">
+                            <img src="images/surgical-blades-250x250.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInLeft">
+                            <img src="images/Toy-multicolour-electroncardioscop-disposable-stethoscope-child-stethoscope-simple-stethoscope-disposable-font-b-surgical-b-font-font.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 ">
+                        <div class="blog-img wow bounceInUp">
+                            <img src="images/surgical-equipments-250x250.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--blog-part end-->
+        <!--product-part end-->
 
         <!--footer part start-->
         <footer class="bg text-center">
             <div class="container p-4">
                 <div class="row my-4">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-5 col-md-4 col-sm-6">
 
-                        <a class="navbar-brand " href="#" style="font-size: 25px; font-weight: bold; color: #fff;">
-                            <!-- <img src="images/ak-trade-logo.png" alt="" style="width: 200px;"> -->
-                            <span style="color: #ffca36;">FATEMA</span> MOTORS
+                        <a class="navbar-brand " href="index.html" style="font-size: 25px; font-weight: bold; color: #fff;">
+                            <img src="images/fatema-logo-footer.png" alt="" style="width: 200px;">
                         </a>
 
                         <p class="text-center footer-text">We are looking forward to having a brighter and successful business in the near future
@@ -445,7 +464,7 @@
 
                         <ul class="list-unstyled first-row-list d-flex flex-row justify-content-center">
                             <li>
-                                <a class="text-white " href="#">
+                                <a class="text-white " href="https://www.facebook.com/fatemamotors?mibextid=ZbWKwL">
                                     <i class=" fab fa-facebook-f"></i>
                                 </a>
                             </li>
@@ -472,7 +491,7 @@
                         </ul>
 
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-5 col-md-4 col-sm-6">
                         <h5 class="text-uppercase mb-4 pb-1">Contact Us</h5>
 
                         <ul class="fa-ul">
@@ -496,63 +515,30 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="col-lg-2 col-md-4 col-sm-6">
                         <h6 class="text-uppercase">
                             Important Links
                         </h6>
                         <div class="text-link">
-                            <p>
-                                Home
-                            </p>
-                            <p>
-                               Products
-                            </p>
-                            <p>
-                                Company
-                            </p>
-                            <p>
-                                Contact Us
-                            </p>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 footer-menu">
-                        <h6 class="text-uppercase">
-                            Latest News
-                        </h6>
-                        <div class="last-row">
-                            <div class="single-img fa-pull-left">
-                                <a href=""><img src="images/footer-news-1.jpg" class="img-responsive" alt=""></a>
-                            </div>
-                            <div class="text-detail">
-                                <h5>Nice Newest Construction Factory Work</h5>
-                                <p>26 October 2017</p>
-                                <ul>
-                                    <li><a href=""><i class="fas fa-user"></i><span>By: Admin</span></a></li>
-                                    <li><a href=""><i class="fas fa-thumbs-up"></i><span>2.5k likes</span></a></li>
-                                    <li><a href=""><i class="fas fa-comment"></i><span>1.5k comments</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="last-row">
-                            <div class="single-img fa-pull-left">
-                                <a href=""><img src="images/footer-news-2.jpg" class="img-responsive" alt=""></a>
-                            </div>
-                            <div class="text-detail">
-                                <h5>Nice Newest Construction Factory Work</h5>
-                                <p>26 October 2017</p>
-                                <ul class="last-list-like">
-                                    <li><a href=""><i class="fas fa-user"></i><span>By: Admin</span></a></li>
-                                    <li><a href=""><i class="fas fa-thumbs-up"></i><span>2.5k likes</span></a></li>
-                                    <li><a href=""><i class="fas fa-comment"></i><span>1.5k comments</span></a></li>
-                                </ul>
-                            </div>
+                            <ul class="navbar-nav" style="color: #fff; text-align: left; list-style:disc; padding-left: 25px;">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#blog-part">Products </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="company.html">Company </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact us.html"> Contact Us </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-    </div>
-    </footer>
+        </footer>
     <!--footer part start-->
 
     <!--copywrite part start-->
@@ -561,7 +547,7 @@
             <div class="row text-center justify-content-center">
                 <div class="col-lg-6 m-auto">
                     <div class="copy-item">
-                        <p>Copyright &copy; 2017. All right reserved by <span>PRODUSTRY</span></p>
+                        <p>Copyright &copy; 2023. All right reserved by <span>Fatema Motors</span></p>
                     </div>
                 </div>
             </div>
@@ -571,15 +557,9 @@
 
 
 
-
-
-
-
-
-
-
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/map.js"></script>

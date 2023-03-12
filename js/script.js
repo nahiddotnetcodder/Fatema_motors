@@ -304,7 +304,7 @@ $(function($){
   ]
 	});
 
-    
+    new WOW().init();
 
 
   
